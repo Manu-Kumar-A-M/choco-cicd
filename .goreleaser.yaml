@@ -52,7 +52,7 @@ chocolateys:
     # If you want a good separator for words, use '-', not  '.'.
     #
     # Default: ProjectName
-    name: 'Goreleaserdemo'
+    name: 'choco-cicd'
 
     # IDs of the archives to use.
     # Empty means all IDs.
@@ -65,7 +65,7 @@ chocolateys:
     # A human-friendly title of the package.
     #
     # Default: ProjectName
-    title: 'Goreleaser demo'
+    title: 'choco-cicd'
 
     # Your app's authors (probably you).
     authors: ManuKumar A M
@@ -79,7 +79,7 @@ chocolateys:
     #
     # Default: depends on the git remote
     # Templates: allowed
-    url_template: https://github.com/Manu-Kumar-A-M/goreleaser_demo/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: https://github.com/Manu-Kumar-A-M/choco-cicd/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
     # App's icon.
     #icon_url: 'https://rawcdn.githack.com/foo/bar/efbdc760-395b-43f1-bf69-ba25c374d473/icon.png'
@@ -95,10 +95,10 @@ chocolateys:
     require_license_acceptance: false
 
     # Your app's source url.
-    project_source_url: https://github.com/Manu-Kumar-A-M/goreleaser_demo
+    project_source_url: https://github.com/Manu-Kumar-A-M/choco-cicd
 
     # App's bugtracker url.
-    bug_tracker_url: https://github.com/Manu-Kumar-A-M/goreleaser_demo/issues
+    bug_tracker_url: https://github.com/Manu-Kumar-A-M/choco-cicd/issues
 
     tags: "goreleaserdemo accion"
 
