@@ -79,13 +79,13 @@ chocolateys:
     #
     # Default: depends on the git remote
     # Templates: allowed
-    url_template: https://github.com/Manu-Kumar-A-M/choco-cicd/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    #url_template: https://github.com/Manu-Kumar-A-M/choco-cicd/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
     # App's icon.
     #icon_url: 'https://rawcdn.githack.com/foo/bar/efbdc760-395b-43f1-bf69-ba25c374d473/icon.png'
 
     # Your app's copyright details.
-    copyright: 2022 Drummer Roll Inc
+    copyright: 2022 accion Inc
 
     # App's license information url.
 
@@ -116,7 +116,7 @@ chocolateys:
     # Supports markdown. To prevent the need to continually update this field,
     # providing a URL to an external list of Release Notes is perfectly
     # acceptable.
-    release_notes: "https://github.com/Manu-Kumar-A-M/goreleaser_demo/releases/tag/v{{ .Version }}"
+    #release_notes: "https://github.com/Manu-Kumar-A-M/choco-cicd/releases/tag/v{{ .Version }}"
 
     # App's dependencies
     # The version is not required.
